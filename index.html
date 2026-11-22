@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ENERZECH. Spécialiste de la confection, installation et maintenance de tableaux électriques basse tension au Maroc."
+    />
+    <title>ENERZECH – Accueil</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/css/style.css" />
+    <link rel="stylesheet" href="Assets/css/responsive.css" />
+    
+  </head>
+
+  <body>
+    <!-- <span class="loaded"></span> -->
+
+    <header id="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="site-logo">
+          <div class="logo">
+            <img src="Assets/images/logo.png" alt="ENERZECH Logo" />
+          </div>
+        </a>
+
+        <nav class="main-nav" id="main-nav">
+          <a href="index.html" class="nav-item active">Accueil</a>
+          <a href="secteurs.html" class="nav-item">Secteurs</a>
+          <a href="about.html" class="nav-item">À Propos</a>
+          <a href="services.html" class="nav-item">Services</a>
+          <a href="projets.html" class="nav-item">Projets</a>
+          <a href="contact.html" class="nav-item nav-item--cta">Contact</a>
+        </nav>
+
+        <button class="nav-burger" id="nav-burger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+    <section id="home" class="hero">
+      <div class="hero-video-layer" aria-hidden="true">
+        <video
+          class="hero-bg-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=1920&q=80"
+        >
+          <source src="Assets/video/video.mp4" type="video/mp4" />
+          Your browser does not support background video.
+        </video>
+      </div>
+      <div
+        class="hero-mobile-fallback"
+        aria-hidden="true"
+        style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=1920&q=80&quot;);
+        "
+      ></div>
+
+      <div class="hero-slides" id="hero-slides">
+        <div class="hero-slide active" data-slide="0">
+          <div class="slide-bg"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <p class="slide-eyebrow">Tableaux Électriques BT</p>
+            <h2 class="slide-tagline">
+              NOUS ALIMENTONS<br />L'ÉNERGIE DE<br />L'INDUSTRIE
+            </h2>
+            <span class="slide-market">Industrie &amp; Fabrication</span>
+          </div>
+        </div>
+
+        <div class="hero-slide" data-slide="1">
+          <div class="slide-bg"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <p class="slide-eyebrow">Infrastructure Critique</p>
+            <h2 class="slide-tagline">
+              NOUS RENFORÇONS<br />LA FIABILITÉ DE<br />LA CONNECTIVITÉ
+            </h2>
+            <span class="slide-market">Data Centers</span>
+          </div>
+        </div>
+
+        <div class="hero-slide" data-slide="2">
+          <div class="slide-bg"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <p class="slide-eyebrow">Bâtiments Tertiaires</p>
+            <h2 class="slide-tagline">
+              NOUS ÉLECTRIFIONS<br />LES ESPACES<br />DE DEMAIN
+            </h2>
+            <span class="slide-market">Bâtiments Commerciaux</span>
+          </div>
+        </div>
+
+        <div class="hero-slide" data-slide="3">
+          <div class="slide-bg"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <p class="slide-eyebrow">Logements &amp; Résidentiel</p>
+            <h2 class="slide-tagline">
+              NOUS APPORTONS<br />LE CONFORT<br />À CHAQUE FOYER
+            </h2>
+            <span class="slide-market">Projets Résidentiels</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-cta-bar">
+        <div class="hero-cta-inner">
+          <div class="hero-brand-msg">
+            <h1 class="hero-title">ENERZECH</h1>
+            <p class="hero-sub">
+              De la conception à la mise en service — votre partenaire
+              électrique au Maroc
+            </p>
+          </div>
+          <div class="hero-btns">
+            <a href="services.html" class="btn btn-primary">Nos Services</a>
+            <a href="contact.html" class="btn btn-outline">Contactez-nous</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="slide-dots" id="slide-dots">
+        <button class="dot active" data-dot="0" aria-label="Slide 1"></button>
+        <button class="dot" data-dot="1" aria-label="Slide 2"></button>
+        <button class="dot" data-dot="2" aria-label="Slide 3"></button>
+        <button class="dot" data-dot="3" aria-label="Slide 4"></button>
+      </div> -->
+
+      <!-- <button
+        class="slide-arrow slide-prev"
+        id="slide-prev"
+        aria-label="Précédent"
+      >
+        <i class="fa-solid fa-chevron-left"></i>
+      </button> -->
+      <!-- <button
+        class="slide-arrow slide-next"
+        id="slide-next"
+        aria-label="Suivant"
+      >
+        <i class="fa-solid fa-chevron-right"></i>
+      </button> -->
+
+     
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-inner">
+        <div class="ticker-track">
+          <span>Confection de Tableaux Électriques</span
+          ><i class="fa-solid fa-bolt"></i>
+          <span>Installation &amp; Mise en Service</span
+          ><i class="fa-solid fa-bolt"></i>
+          <span>Maintenance Préventive &amp; Corrective</span
+          ><i class="fa-solid fa-bolt"></i>
+          <span>Modification &amp; Rénovation</span
+          ><i class="fa-solid fa-bolt"></i>
+          <span>Conformité NM / CEI 60364</span><i class="fa-solid fa-bolt"></i>
+          <span>Sidi Maarouf, Casablanca</span><i class="fa-solid fa-bolt"></i>
+          <span>Confection de Tableaux Électriques</span
+          ><i class="fa-solid fa-bolt"></i>
+          <span>Installation &amp; Mise en Service</span
+          ><i class="fa-solid fa-bolt"></i>
+          <span>Maintenance Préventive &amp; Corrective</span
+          ><i class="fa-solid fa-bolt"></i>
+          <span>Modification &amp; Rénovation</span
+          ><i class="fa-solid fa-bolt"></i>
+          <span>Conformité NM / CEI 60364</span><i class="fa-solid fa-bolt"></i>
+          <span>Sidi Maarouf, Casablanca</span><i class="fa-solid fa-bolt"></i>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ═══════════════════════════ WHY CHOOSE ENERZECH ═══════════════════════════ -->
+    <!-- Brief preview — full story on about.html -->
+    <section id="why-choose" class="home-why-section">
+      <div class="wrapper">
+        <div class="section-header centered" data-aos="fade-up">
+          <div class="section-label">Votre Partenaire</div>
+          <h2 class="section-title">Pourquoi choisir <span class="text-primary">ENERZECH</span> ?</h2>
+          <div class="orange-rule centered-rule"></div>
+        </div>
+
+        <div class="about-why-grid home-why-grid-compact" data-aos="fade-up">
+          <div class="about-why-item">
+            <div class="about-why-num"><i class="fa-solid fa-bolt"></i> 01</div>
+            <h4>Expertise BT spécialisée</h4>
+            <p>Maîtrise des tableaux électriques basse tension.</p>
+          </div>
+          <div class="about-why-item">
+            <div class="about-why-num"><i class="fa-solid fa-route"></i> 02</div>
+            <h4>Accompagnement de bout en bout</h4>
+            <p>Un interlocuteur unique, de l'étude à la maintenance.</p>
+          </div>
+          <div class="about-why-item">
+            <div class="about-why-num"><i class="fa-solid fa-industry"></i> 03</div>
+            <h4>Atelier &amp; équipes terrain</h4>
+            <p>Fabrication en atelier, déploiement sur site.</p>
+          </div>
+          <div class="about-why-item">
+            <div class="about-why-num"><i class="fa-solid fa-handshake"></i> 04</div>
+            <h4>Partenariats de confiance</h4>
+            <p>Des collaborations solides avec le secteur.</p>
+          </div>
+        </div>
+
+        <div class="home-section-cta">
+          <a href="about.html" class="sr-cta">Découvrir notre histoire <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ OUR PROCESS ═══════════════════════════ -->
+    <!-- Brief preview — full method on about.html#approche-full -->
+    <section id="process" class="home-process-section">
+      <div class="wrapper">
+        <div class="section-header centered" data-aos="fade-up">
+          <div class="section-label">Notre Méthode</div>
+          <h2 class="section-title">Notre approche <span class="text-primary">projet</span></h2>
+          <div class="orange-rule centered-rule"></div>
+          <p class="approche-subtitle">5 étapes, de la conception à la maintenance.</p>
+        </div>
+
+        <div class="approche-steps home-process-steps" data-aos="fade-up">
+          <div class="approche-card" data-step="01" data-aos="fade-up">
+            <div class="approche-card-inner">
+              <div class="approche-header">
+                <span class="approche-step">01</span>
+                <div class="approche-icon"><i class="ri-file-chart-line"></i></div>
+              </div>
+              <h4 class="approche-card-title">Analyse &amp; Conception</h4>
+              <p class="approche-card-desc">Étude des besoins, schémas techniques, dimensionnement.</p>
+            </div>
+          </div>
+          <div class="approche-card" data-step="02" data-aos="fade-up" data-aos-delay="70">
+            <div class="approche-card-inner">
+              <div class="approche-header">
+                <span class="approche-step">02</span>
+                <div class="approche-icon"><i class="fa-solid fa-table-cells"></i></div>
+              </div>
+              <h4 class="approche-card-title">Fabrication</h4>
+              <p class="approche-card-desc">Câblage en atelier selon normes BT, contrôle qualité rigoureux.</p>
+            </div>
+          </div>
+          <div class="approche-card" data-step="03" data-aos="fade-up" data-aos-delay="140">
+            <div class="approche-card-inner">
+              <div class="approche-header">
+                <span class="approche-step">03</span>
+                <div class="approche-icon"><i class="fa-solid fa-helmet-safety"></i></div>
+              </div>
+              <h4 class="approche-card-title">Installation</h4>
+              <p class="approche-card-desc">Déploiement sur site, raccordement et tests de conformité.</p>
+            </div>
+          </div>
+          <div class="approche-card" data-step="04" data-aos="fade-up" data-aos-delay="210">
+            <div class="approche-card-inner">
+              <div class="approche-header">
+                <span class="approche-step">04</span>
+                <div class="approche-icon"><i class="fa-solid fa-circle-check"></i></div>
+              </div>
+              <h4 class="approche-card-title">Mise en Service</h4>
+              <p class="approche-card-desc">Validation complète et remise des documents techniques.</p>
+            </div>
+          </div>
+          <div class="approche-card" data-step="05" data-aos="fade-up" data-aos-delay="280">
+            <div class="approche-card-inner">
+              <div class="approche-header">
+                <span class="approche-step">05</span>
+                <div class="approche-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              </div>
+              <h4 class="approche-card-title">Maintenance</h4>
+              <p class="approche-card-desc">Suivi préventif et correctif pour pérenniser les installations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="home-section-cta">
+          <a href="about.html#approche-full" class="sr-cta">Découvrir notre méthode <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ COMPANY HIGHLIGHTS ═══════════════════════════ -->
+    <!-- Figures sourced from about.html "Chiffres clés" band -->
+    <section id="highlights" class="home-highlights-section">
+      <div class="wrapper">
+        <div class="section-header centered" data-aos="fade-up">
+          <div class="section-label">Chiffres Clés</div>
+          <h2 class="section-title">ENERZECH en <span class="text-primary">quelques chiffres</span></h2>
+          <div class="orange-rule centered-rule"></div>
+        </div>
+
+        <div class="about-keyfigures home-highlights-band" aria-label="Chiffres clés" data-aos="fade-up">
+          <div class="about-keyfigures-inner">
+            <div class="stat-item">
+              <span class="stat-number"><span class="counter" data-target="5">0</span>+</span>
+              <span class="stat-label">années d'expertise</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number"><span class="counter" data-target="100">0</span>%</span>
+              <span class="stat-label">conformité normes</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number"><span class="counter" data-target="360">0</span>°</span>
+              <span class="stat-label">accompagnement</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ SECTORS WE SERVE ═══════════════════════════ -->
+    <!-- Brief preview — full detail on secteurs.html -->
+    <section id="sectors" class="home-sectors-section">
+      <div class="wrapper">
+        <div class="section-header centered" data-aos="fade-up">
+          <div class="section-label">Nos Marchés</div>
+          <h2 class="section-title">Secteurs d'<span class="text-primary">intervention</span></h2>
+          <div class="orange-rule centered-rule"></div>
+        </div>
+
+        <div class="home-sectors-grid" data-aos="fade-up">
+          <div class="home-sector-tile">
+            <i class="fa-solid fa-industry"></i>
+            <span>Industrie &amp; Fabrication</span>
+          </div>
+          <div class="home-sector-tile">
+            <i class="fa-solid fa-building"></i>
+            <span>Tertiaire &amp; Commercial</span>
+          </div>
+          <div class="home-sector-tile">
+            <i class="fa-solid fa-home"></i>
+            <span>Résidentiel</span>
+          </div>
+          <div class="home-sector-tile">
+            <i class="fa-solid fa-landmark"></i>
+            <span>Infrastructures Publiques</span>
+          </div>
+          <div class="home-sector-tile">
+            <i class="fa-solid fa-server"></i>
+            <span>Data Centers</span>
+          </div>
+        </div>
+
+        <div class="home-section-cta">
+          <a href="secteurs.html" class="sr-cta">Voir tous les secteurs <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ FEATURED SOLUTIONS ═══════════════════════════ -->
+    <!-- Brief preview — full detail on services.html -->
+    <section id="solutions" class="home-solutions-section">
+      <div class="wrapper">
+        <div class="section-header centered" data-aos="fade-up">
+          <div class="section-label">Expertise</div>
+          <h2 class="section-title">Nos <span class="text-primary">Prestations</span></h2>
+          <div class="orange-rule centered-rule"></div>
+        </div>
+
+        <div class="home-solutions-grid">
+          <div class="home-solution-card" data-aos="fade-up">
+            <div class="home-solution-img">
+              <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=700&q=80" alt="Confection de tableaux électriques" loading="lazy">
+            </div>
+            <div class="home-solution-body">
+              <h4>Confection &amp; Câblage</h4>
+              <p>Tableaux BT sur mesure, conformes NFC 15-100.</p>
+              <a href="services.html" class="sr-cta">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="home-solution-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="home-solution-img">
+              <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=700&q=80" alt="Installation électrique" loading="lazy">
+            </div>
+            <div class="home-solution-body">
+              <h4>Installation &amp; Mise en Service</h4>
+              <p>Raccordement professionnel et tests de conformité.</p>
+              <a href="services.html" class="sr-cta">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="home-solution-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="home-solution-img">
+              <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=700&q=80" alt="Maintenance électrique" loading="lazy">
+            </div>
+            <div class="home-solution-body">
+              <h4>Maintenance &amp; Dépannage</h4>
+              <p>Contrats préventifs et intervention rapide.</p>
+              <a href="services.html" class="sr-cta">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="home-section-cta">
+          <a href="services.html" class="sr-cta">Voir tous nos services <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ PARTNERS SECTION ═══════════════════════════ -->
+    <section id="partners" class="partners-section">
+      <div class="wrapper">
+        <div class="partners-header">
+          <span class="partners-label">Nos Marques</span>
+        </div>
+
+        <div class="partners-grid">
+          <div class="partners-row">
+            <div class="partner-brand"><img src="Assets/images/Partners/actemium.svg" alt="Actemium" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/axians.svg" alt="Axians" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/caitlann.svg" alt="Caitlann" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/cegelec.svg" alt="Cegelec" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/city-electric.svg" alt="City Electric" loading="lazy" /></div>
+          </div>
+
+          <div class="partners-row">
+            <div class="partner-brand"><img src="Assets/images/Partners/ensysta.svg" alt="Ensysta Refrigeration" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/gh-montage.svg" alt="G+H Montage" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/hooyberghs.svg" alt="Hooyberghs" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/legendre.svg" alt="Legendre" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/omexom.svg" alt="Omexom" loading="lazy" /></div>
+          </div>
+
+          <div class="partners-row partners-row--center">
+            <div class="partner-brand"><img src="Assets/images/Partners/tranzcom.svg" alt="TranzCom" loading="lazy" /></div>
+            <div class="partner-brand"><img src="Assets/images/Partners/vinci-facilities.svg" alt="VINCI Facilities" loading="lazy" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ FINAL CTA ═══════════════════════════ -->
+    <!-- Messaging reused from the cta-band already used on about.html / services.html -->
+    <section class="cta-band">
+      <div class="wrapper cta-band-inner">
+        <div class="cta-band-text">
+          <h3>Prêt à démarrer votre projet ?</h3>
+          <p>Discutons de votre projet et obtenez une proposition adaptée à vos contraintes techniques et planning.</p>
+        </div>
+        <div class="cta-band-btns">
+          <a href="contact.html" class="btn btn-primary">Contactez-nous</a>
+          <a href="contact.html" class="btn btn-outline">Demander un devis</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="wrapper footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <img src="Assets/images/logo.png" alt="ENERZECH Logo" />
+            </div>
+            <p class="footer-about">
+              ENERZECH est une entreprise
+              spécialisée dans la confection et la maintenance des tableaux
+              électriques.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="secteurs.html">Secteurs</a></li>
+              <li><a href="about.html">À Propos</a></li>
+              <li><a href="services.html">Nos Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contactez-nous</h4>
+            <div class="footer-contact">
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Sidi Maarouf, Casablanca</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-phone"></i>
+                <span><a href="tel:+212661119984">06 61 11 99 84</a></span>
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope"></i>
+                <span
+                  ><a href="mailto:contact@ENERZECHcompany.ma"
+                    >contact@gmail.com</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="wrapper fb-inner">
+          <p>Copyright &copy; 2026 ENERZECH | Propulsé par ENERZECH</p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="back-top" aria-label="Retour en haut">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <script src="Assets/js/script.js"></script>
+  </body>
+</html>

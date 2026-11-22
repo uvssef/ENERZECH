@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ENERZECH – Projets réalisés. Découvrez nos réalisations en tableaux électriques BT au Maroc." />
+  <title>ENERZECH – Projets</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Assets/css/style.css" />
+  <link rel="stylesheet" href="Assets/css/responsive.css" />
+</head>
+
+<body>
+
+  <span class="loaded"></span>
+
+  <header id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">
+        <div class="logo">
+          <img src="Assets/images/logo.png" alt="ENERZECH Logo">
+        </div>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html" class="nav-item">Accueil</a>
+        <a href="secteurs.html" class="nav-item">Secteurs</a>
+        <a href="about.html" class="nav-item">À Propos</a>
+        <a href="services.html" class="nav-item">Services</a>
+        <a href="projets.html" class="nav-item active">Projets</a>
+        <a href="contact.html" class="nav-item nav-item--cta">Contact</a>
+      </nav>
+
+      <button class="nav-burger" id="nav-burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- PAGE HERO BANNER -->
+  <div class="page-banner" style="background-image: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80')">
+    <div class="page-banner-overlay"></div>
+    <div class="page-banner-content">
+      <div class="section-label light">ENERZECH</div>
+      <h1>Nos Projets</h1>
+      <div class="orange-rule"></div>
+      <p>Découvrez nos réalisations en tableaux électriques BT</p>
+    </div>
+  </div>
+
+  <!-- Coming soon placeholder -->
+  <section class="coming-soon-section">
+    <div class="wrapper" style="text-align:center; padding: 100px 20px;">
+      <div class="section-label">Bientôt disponible</div>
+      <h2 class="section-title" style="margin: 16px 0 24px;">Nos réalisations arrivent bientôt</h2>
+      <div class="orange-rule centered-rule"></div>
+      <p style="max-width:560px; margin: 32px auto 40px; color: var(--muted); font-size: 15px; line-height: 1.8;">
+        Nous préparons la galerie de nos projets réalisés. En attendant, n'hésitez pas à nous contacter pour discuter de votre projet.
+      </p>
+      <a href="contact.html" class="btn btn-primary">Contactez-nous</a>
+    </div>
+  </section>
+
+  <section id="partners" class="partners-section">
+    <div class="wrapper">
+      <div class="partners-header">
+        <span class="partners-label">Nos Marques</span>
+      </div>
+
+      <div class="partners-grid">
+        <div class="partners-row">
+          <div class="partner-brand"><img src="Assets/images/Partners/actemium.svg" alt="Actemium" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/axians.svg" alt="Axians" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/caitlann.svg" alt="Caitlann" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/cegelec.svg" alt="Cegelec" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/city-electric.svg" alt="City Electric" loading="lazy" /></div>
+        </div>
+
+        <div class="partners-row">
+          <div class="partner-brand"><img src="Assets/images/Partners/ensysta.svg" alt="Ensysta Refrigeration" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/gh-montage.svg" alt="G+H Montage" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/hooyberghs.svg" alt="Hooyberghs" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/legendre.svg" alt="Legendre" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/omexom.svg" alt="Omexom" loading="lazy" /></div>
+        </div>
+
+        <div class="partners-row partners-row--center">
+          <div class="partner-brand"><img src="Assets/images/Partners/tranzcom.svg" alt="TranzCom" loading="lazy" /></div>
+          <div class="partner-brand"><img src="Assets/images/Partners/vinci-facilities.svg" alt="VINCI Facilities" loading="lazy" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="wrapper footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <img src="Assets/images/logo.png" alt="ENERZECH Logo" />
+          </div>
+          <p class="footer-about">
+            ENERZECH est une entreprise spécialisée dans la confection et la maintenance
+            des tableaux électriques.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="secteurs.html">Secteurs</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contactez-nous</h4>
+          <div class="footer-contact">
+            <p><i class="fa-solid fa-location-dot"></i> <span>Sidi Maarouf, Casablanca</span></p>
+            <p><i class="fa-solid fa-phone"></i> <span><a href="tel:+212661119984">06 61 11 99 84</a></span></p>
+            <p><i class="fa-solid fa-envelope"></i> <span><a href="mailto:contact@ENERZECHcompany.ma">contact@gmail.com</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="wrapper fb-inner">
+        <p>Copyright &copy; 2026 ENERZECH | Propulsé par ENERZECH</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-top" aria-label="Retour en haut"><i class="fa-solid fa-chevron-up"></i></button>
+
+  <script src="Assets/js/script.js"></script>
+</body>
+</html>
